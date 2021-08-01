@@ -34,3 +34,18 @@ variable "host_password" {
   description = "VM Password"
   default     = "notSet"
 }
+
+variable "administrator_login" {
+  description = "sql server lodin id"
+  default     = "notSet"
+}
+
+variable "administrator_login_password" {
+  description = "sql server lodin password"
+  default     = "notSet"
+}
+
+variable "app_name" {
+  description = "sql server instance name"
+  default     = "notSet"
+}
