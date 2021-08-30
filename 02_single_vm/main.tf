@@ -46,6 +46,8 @@ resource "azurerm_public_ip" "mypublicip" {
   tags = {
     Owner = "Brajesh"
   }
+
+  
 }
 
 # This creates Network Card for Single VM Machine
