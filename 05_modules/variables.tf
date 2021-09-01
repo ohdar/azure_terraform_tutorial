@@ -10,4 +10,3 @@ variable "client_secret" {
 variable "tenant_id" {
   description = "Enter Tenant ID / Dirctory ID of your Azure AD. Run Get-AzureSubscription"
 }
-
